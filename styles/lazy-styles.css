@@ -1,6 +1,6 @@
 /* add global styles that can be loaded post LCP here */
 h2 {
-    color: #0969da;
+    color: var(--link-color);
 }
 
 * {

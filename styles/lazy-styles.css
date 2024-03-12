@@ -9,6 +9,8 @@ h4 {
     padding: 22px;
     border-radius: 22px;
     box-shadow: 0 0 20px #a6a6a6;
+    max-width: 1200px;
+    margin: auto;
 }
 
 @keyframes reveal {

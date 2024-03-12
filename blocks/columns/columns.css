@@ -7,12 +7,22 @@
   width: 100%;
 }
 
+.columns.banner img {
+  width: 400px;
+  animation: reveal 1s linear forwards;
+}
+
+.columns.banner {
+  margin-bottom: 120px;
+}
+
 .columns > div > div {
   order: 1;
 }
 
 .columns > div > .columns-img-col {
   order: 0;
+  max-width: 400px;
 }
 
 .columns > div > .columns-img-col img {

@@ -1,1 +1,24 @@
 /* add global styles that can be loaded post LCP here */
+h3,
+h4 {
+    color: orange;
+}
+
+.code-summary {
+    background: #f8f8f8;
+    padding: 22px;
+    border-radius: 22px;
+    box-shadow: 0 0 20px #a6a6a6;
+}
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: translateX(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

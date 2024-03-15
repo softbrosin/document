@@ -12,8 +12,8 @@
   animation: reveal 1s linear forwards;
 }
 
-.columns.banner {
-  margin-bottom: 120px;
+.columns.banner h1,.columns.banner h3 {
+  margin: 0;
 }
 
 .columns > div > div {
@@ -22,11 +22,12 @@
 
 .columns > div > .columns-img-col {
   order: 0;
-  max-width: 400px;
+  max-width: 150px;
 }
 
 .columns > div > .columns-img-col img {
   display: block;
+  width: 170px;
 }
 
 @media (width >= 900px) {

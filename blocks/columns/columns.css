@@ -12,7 +12,11 @@
   animation: reveal 1s linear forwards;
 }
 
-.columns.banner h1,.columns.banner h3 {
+.columns.banner {
+  border-bottom: 2px solid purple;
+
+.columns.banner h1,.columns.banner h3,
+.columns.banner h1,.columns.banner p{
   margin: 0;
 }
 

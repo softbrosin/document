@@ -15,6 +15,7 @@
 .columns.banner {
   border-bottom: 3px solid purple;
   margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .columns.banner h1,.columns.banner h3,{

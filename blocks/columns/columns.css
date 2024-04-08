@@ -16,9 +16,13 @@
   border-bottom: 3px solid purple;
 }
 
-.columns.banner h1,.columns.banner h3,
-.columns.banner h1,.columns.banner p{
+.columns.banner h1,.columns.banner h3,{
   margin: 0;
+}
+
+.columns.banner p {
+  margin: 0;
+  color: #767676;
 }
 
 .columns.cluster_button > div > div {

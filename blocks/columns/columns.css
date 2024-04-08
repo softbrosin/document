@@ -8,12 +8,13 @@
 }
 
 .columns.banner img {
-  width: 250px;
+  width: 170px;
   animation: reveal 1s linear forwards;
 }
 
 .columns.banner {
-  border-bottom: 2px solid purple;
+  border-bottom: 3px solid purple;
+}
 
 .columns.banner h1,.columns.banner h3,
 .columns.banner h1,.columns.banner p{

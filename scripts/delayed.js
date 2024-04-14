@@ -5,7 +5,7 @@ import { sampleRUM } from './aem.js';
 sampleRUM('cwv');
 
 // add more delayed functionality here
-const re = document.createElement(p);
+const re = document.createElement('p');
 re.textContent = 'Home';
 re.className = 'homeBtn';
 document.body.append(re);
